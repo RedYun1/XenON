@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XenON ingressos</title>
+    <link rel="stylesheet" href="ingresso.css">
+    <script type="text/javascript" src="ingresso.js"></script>
+</head>
+<body>
+    <header>
+        <div class="overlay" id="myNav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="ingresso.html">Compre seu ingresso</a>
+                <a href="ingressoDev.html">Mostre seu jogo no evento</a>
+                <a href="sobrenos.html">Sobre nos</a>
+            </div>
+        </div>
+        <span onclick="openNav()">&#9776;</span>
+        <div class="nome">
+            <h2>XenON</h2>
+        </div>
+    </header>
+    <h1>Compre seu ingresso!</h1>
+    <br><br><br><br>
+    <div class="forms">
+        <div class="form1-container" id="form1">
+            <form action="" method="post">
+                <input type="text" name="Nome" size="75px" placeholder="Nome completo" required>
+                    <br><br><br><br>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" name="data de nascimento" required>
+                    <br><br><br><br>
+                <input type="tel" name="telefone" size="50px" placeholder="Número de telefone: (DDD) *****-****" required>
+                    <br><br><br><br>
+                <input type="number" name="CPF" size="30px" placeholder="CPF ***.***.***-**">
+                    <br><br><br><br>
+                <label for="gmail">Endereço de gmail</label>
+                <input type="email" name="gmail" size="35px" placeholder="**************@gmail.com" required>
+                    <br><br><br><br>
+                <input type="submit" value="Entrar na área de pagamento">
+            </form>
+        </div>
+            <br><br><br><br>
+        <a href="ingressoDev.html"><button class="toggleButton">É um desenvolvedor? Clique aqui!</button></a>
+    </div> 
+</body>
+</html>

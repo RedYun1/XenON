@@ -1,0 +1,124 @@
+header{
+    background-image: linear-gradient(to right, #00c3cc, #3372e3, #7426ef);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 80px;
+}
+body{
+    background-color: black;
+    color: grey;
+}
+span{
+    cursor: pointer;
+    font-size: 50px;
+    margin-left: 10px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .sobrenos{
+    text-align: center;
+    font-size: larger;
+  }
+  h1{
+    font-family: 'neotriad', sans-serif;
+    color: #00c3cc;
+  }
+  .nome{
+    text-align: center;
+    margin-top: -93px;
+    font-size: xx-large;
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+  }
+  footer{
+    background-image: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    height: cover;
+    margin-top: 235px;
+    margin-left: -10px;
+    margin-right: -8px;
+  }
+  .imgs{
+    align-items: baseline;
+    clear: both;
+    margin-left: 650px;
+    margin-inline: 650px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .texts{
+    align-items: baseline;
+    clear: both;
+    margin-left: 650px;
+    margin-inline: 550px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .red{
+    color: #ff0800;
+    font-family: 'shifty notes', sans-serif;
+  }
+  .blue{
+    color: #123456;
+    font-family: 'shifty notes', sans-serif;
+  }
+  h3{
+    font-family: 'shifty notes', sans-serif;
+    color: white;
+  }
+  img{
+    margin: 20px;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XenON ingressos</title>
+    <link rel="stylesheet" href="ingresso.css">
+    <script type="text/javascript" src="ingresso.js"></script>
+</head>
+<body>
+    <header>
+        <div class="overlay" id="myNav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="ingresso.html">Compre seu ingresso</a>
+                <a href="ingressoDev.html">Mostre seu jogo no evento</a>
+                <a href="sobrenos.html">Sobre nos</a>
+            </div>
+        </div>
+        <span onclick="openNav()">&#9776;</span>
+        <div class="nome">
+            <h2>XenON</h2>
+        </div>
+    </header>
+    <h1>Mostre seu jogo no evento!</h1>
+    <br><br><br><br>
+    <div class="forms">
+        <div class="form2-container" id="form2">
+            <form action="" method="post">
+                <input type="text" name="NomeDev" size="75px" placeholder="Nome completo" required>
+                    <br><br><br><br>
+                <input type="name" name="NomeEmpresa" size="75px" placeholder="Nome da empresa" required>
+                    <br><br><br><br>
+                <label for="membros">Tamanho da equipe:</label>
+                <input type="number" name="membros" size="20px" placeholder="Max 50 membros" required>
+                    <br><br><br><br>
+                <input type="text" name="NomeDoJogo" size="80px" placeholder="Nome do jogo" required>
+                    <br><br><br><br>
+                <input type="url" name="LinkDoJogo" size="50px" placeholder="Link do jogo (Gamejolt, Steam ou GOG)" required>
+                    <br><br><br><br>
+                <input type="email" name="EmailDaEmpresa" size="35px" placeholder="Gmail da empresa" required>
+                    <br><br><br><br>
+                <input type="tel" name="TelefoneContato" size="50px" placeholder="Telefone de contato (DDD)*****-****" required>
+                    <br><br><br><br>
+                <input type="submit" value="Terminar inscrição">
+            </form>
+        </div>
+            <br><br><br><br>
+        <a href="ingresso.html"><button class="toggleButton">É um visitante? Clique aqui!</button></a>
+    </div> 
+</body>
+</html>
