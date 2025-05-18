@@ -10,7 +10,7 @@ header{
     height: 80px;
 }
 body{
-    background-image: url(/Imagens/background.jpg);
+    background-image: url(../Imagens/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
